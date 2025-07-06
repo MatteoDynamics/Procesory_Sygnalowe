@@ -1,0 +1,19 @@
+.msw-selectversionbutton{background-color:#f8f8f8;border:1px solid #ccc;cursor:pointer;line-height:16px;max-width:126px;min-width:126px;padding:5px 10px}
+.msw-selectversionbutton .softwareversionicon{color:#ccc;font-size:20px;margin-left:5px;vertical-align:middle}
+.msw-selectversionbutton-content{background-color:#fff;border:1px solid #ccc;border-top:0 !important;font-size:13px;max-width:126px;overflow-x:hidden;overflow-y:auto;position:absolute;width:calc(100% - 20px);z-index:auto !important}
+.msw-selectversionbutton-content .versionoption{display:inline-block;width:100%}
+.msw-selectversionbutton-content.collapseoptions{border:0}
+.msw-selectversionbutton-content a:hover span{color:#3cb4e6}
+.msw-selectversionbutton-content a#lmuValidation{color:#3cb4e6;display:block}
+.msw-selectversionbutton-content #lmuValidation:not(:has(.versionoption)),.msw-selectversionbutton-content .versionoption{color:#74757c;padding:7px 10px}
+.msw-selectversionbutton-content #lmuValidation:hover,.msw-selectversionbutton-content .versionoption:hover{background:#f6f9fb;color:#3cb4e6}
+.msw-selectversionbutton-content .versionoption span{margin-right:5px}
+.msw-selectversionbutton-buttontext{display:inline-block;vertical-align:middle;width:calc(100% - 22px)}
+.dataTable .dtr-details .dtr-data .msw-selectversionbutton{min-width:auto}
+.dataTable .dtr-details .dtr-data .msw-selectversionbutton-content{width:calc(50% - 25px)}
+.getsw_modal_temp{display:none;background:rgba(0,0,0,0.7);position:fixed;top:0;left:0;z-index:1005;width:100%;height:100%;vertical-align:middle}
+.getsw_modal_temp .modal{display:block;background:#fff;position:relative;margin:auto;top:10%;width:50%}
+.getsw_modal_temp_close{display:none;position:absolute;top:0;right:0;padding:0 10px;font-size:18px;cursor:pointer}
+.getsw_modal_temp_text{display:none;padding:2%;text-align:center}
+.getsw_selectmenu_loading_temp{display:none;position:absolute;right:-20px;margin-top:7px}
+.getsw_selectmenu_loading_temp .st-loading-spinner{height:20px;width:20px;margin:0;background-size:contain}

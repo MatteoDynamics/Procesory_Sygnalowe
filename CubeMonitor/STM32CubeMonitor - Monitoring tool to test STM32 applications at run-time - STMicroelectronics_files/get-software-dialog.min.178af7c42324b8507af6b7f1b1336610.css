@@ -1,0 +1,140 @@
+@media(max-width:640px){.license-modal .accept-license{width:100% !important;margin-left:0}
+#loginOrCreateAccountModal-loader{display:flex;z-index:10000;justify-content:center;align-items:center;background-color:#f6f7f9}
+}
+@media(min-width:641px){.license-modal .accept-license{margin-left:19px}
+}
+.license-modal .accept-license{flex-grow:0;font-family:Arial;font-weight:bold;font-stretch:normal;font-style:normal;letter-spacing:normal;text-align:center;justify-content:center;font-size:15px;line-height:1.6;min-width:97px;height:48px;margin-right:0;margin-bottom:0;border-radius:10px 0 10px 0;color:#fff;background-color:#03234b;border-color:#03234b !important}
+.license-modal .accept-license:hover,.license-modal .accept-license:focus{background-color:#042e62 !important;border-color:#042e62 !important}
+.license-modal .accept-license:disabled{opacity:.35}
+.license-modal .accept-license:active{background-color:#021b3b !important;border-color:#021b3b !important}
+@media(max-width:640px){.license-modal .decline-license{order:2;width:100% !important}
+}
+.license-modal .decline-license{min-width:97px;height:48px;color:#03234b !important;border-radius:10px 0 10px 0;background-color:white !important;border-color:white !important}
+.license-modal .decline-license:hover{background-color:#f6f7f9 !important}
+@media(min-width:640px){.email-dialog-container{width:544px}
+}
+@media(max-width:640px){.email-dialog-container{width:100% !important;padding:24px}
+.generic-modal:has(.email-dialog-container){top:auto}
+.email-dialog-container .light-registration-form .button-row .form-submit-primary-get-software{width:inherit;height:40%}
+.email-dialog-container .light-registration-form .button-row:has(.form-submit-primary-get-software){width:100%}
+.email-dialog-container .accept-terms-data{max-width:none}
+}
+.email-dialog-position{display:flex;justify-content:center}
+.email-dialog-container .download-guest-title{font-family:LubalinGraphStd-Medium}
+.email-dialog-container input{height:40px;align-self:stretch;flex-grow:0;display:flex;flex-direction:row;justify-content:flex-start;align-items:center;gap:8px;padding:8px 12px;border-radius:4px;border:solid 1px #dbdee2;background-color:#f7f8fa}
+.email-dialog-container .row input::placeholder,.email-dialog-container .row h5{height:24px;flex-grow:1;font-family:Arial;font-size:15px;font-weight:normal;font-stretch:normal;font-style:normal;line-height:1.6;letter-spacing:normal;text-align:left;color:#767c84}
+.email-dialog-container .row h5::after{content:'*'}
+.email-dialog-container .light-registration-form .button-row .form-submit-primary-get-software,#secondDownload{min-width:212px;width:max-content;height:48px;flex-grow:0;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:8px;padding:12px 32px;background-color:#03234b;float:none;border-radius:15px 0;border-color:#03234b}
+.email-dialog-container .light-registration-form .button-row:has(.form-submit-primary-get-software){width:fit-content}
+.email-dialog-container .accept-terms-data{font-size:15px;max-width:90%;font-family:Arial;font-size:15px;font-weight:bold;font-stretch:normal;font-style:normal;line-height:1.6}
+.email-dialog-container .accept-terms-data input[type="checkbox"]{min-width:24px;align-self:center}
+.email-dialog-container .small-12:has(.accept-terms-data){padding:0 !important}
+.email-dialog-container .light-registration-form{display:flex;flex-direction:column;gap:10px;padding-top:15px}
+.email-dialog-container .descriptions{padding-bottom:25px}
+#secondDownloadUpdateModal .modal-dialog{box-shadow:none}
+@media(min-width:1025px){.license-modal .modal-content{width:853px}
+.license-modal .modal-content{padding:55px 70px}
+}
+@media(min-width:641px){.additional-license-container .dialog-label img{margin-right:8px}
+}
+@media(max-width:640px){.getsw_modal_temp{font-size:15px}
+.license-modal .modal-content{width:auto;padding:15px 20px}
+.modal-dialog{height:100% !important}
+.license-dialog-title-container{margin-top:4em;margin-bottom:10px}
+.license-dialog-actions-container{margin-top:0 !important;flex-direction:column}
+div .pdf-download{width:auto !important}
+.pdf-download-label{display:none !important}
+.pdf-download-container{border-bottom:none !important}
+.license-modal .page-header .dialog-label.st-text--left{font-size:19px;margin-bottom:0 !important}
+.agreement-copy.license-agreement{border-top:20px solid #f6f7f9 !important;border-right:11px solid #f6f7f9 !important;border-bottom:33px solid #f6f7f9 !important}
+.modal-dialog .modal-content a.btn-close-panel:after{width:17px}
+.modal-dialog .modal-content a.btn-close-panel:before{width:17px}
+.license-dialog-title-container .related-assets{padding-bottom:0 !important;align-self:center}
+.additional-license-container{max-width:309px !important;margin-bottom:52px}
+.additional-license-container .dialog-label{text-overflow:ellipsis;overflow:hidden;width:100% !important;white-space:nowrap;display:inline-block;text-align:left}
+.additional-license-container .dialog-label img{margin-bottom:3px}
+}
+@media(max-width:1024px) and (min-width:641px) and (orientation:portrait){#licenseModal .modal-dialog{top:50%;left:50%;transform:translate(-50%,-50%) !important;margin:0}
+}
+@media(max-width:1024px) and (min-width:641px){.license-modal .modal-content{margin:2% 5%}
+}
+@media(max-width:1024px){.license-dialog-title-container{width:100% !important}
+}
+h3{padding-bottom:0 !important}
+.getsw-dt-subrow-button-tdwrap a{margin-top:0 !important}
+.license-modal .modal-dialog{display:flex;justify-content:center;box-shadow:none}
+.license-agreement{height:604px;padding:35px 22px 40px 40px;overflow-y:scroll;-webkit-overflow-scrolling:touch;background-color:#f6f7f9}
+.license-agreement p{font-family:Arial;font-size:15px}
+.license-dialog-title-container{display:flex;align-items:center;justify-content:space-between;padding:0 0 17px 0}
+.license-dialog-title-container .related-assets{padding:0}
+.license-dialog-actions-container{display:flex;justify-content:end;align-items:center;margin-top:2em}
+.license-modal .dialog-label,#loginOrCreateAccountModal .dialog-label,#secondDownloadCreateAccountModal .dialog-label{flex-grow:0;font-family:Arial;font-weight:bold;font-stretch:normal;font-style:normal;letter-spacing:normal;text-align:center;margin:0;justify-content:center !important;font-size:15px !important;line-height:1.6 !important;color:#03234b}
+.license-modal .page-header .dialog-label.st-text--left{color:#525a63;font-size:25px;margin-bottom:17px}
+.pdf-download-container{border-bottom:2px solid #03234b}
+.pdf-download{display:flex;justify-content:space-between !important;width:fit-content !important;height:24px !important}
+.additional-license-container{width:fit-content;height:32px;margin-top:20px;border-bottom:2px solid #03234b}
+.pdf-download-label{margin-right:5px}
+.agreement-copy.license-agreement::-webkit-scrollbar{width:6px;background:white}
+.agreement-copy.license-agreement::-webkit-scrollbar-thumb{background:#dbdee2;border-radius:3px}
+.agreement-copy.license-agreement{border-top:34px solid #f6f7f9;border-right:22px solid #f6f7f9;border-bottom:48px solid #f6f7f9}
+.getsw_modal_temp{width:90%}
+@media(max-width:640px){#loginOrCreateAccountModal .modal-content-container{padding:123px 22px 98px}
+#loginOrCreateAccountModal .login-or-create-title-container.dialog-label,#secondDownloadCreateAccountModal .login-or-create-title-container.dialog-label{font-size:21px !important}
+#loginOrCreateAccountModal .rectangle,#secondDownloadCreateAccountModal .rectangle{width:90vw !important;height:98px !important}
+#loginOrCreateAccountModal .rectangle .rectangle-image,#secondDownloadCreateAccountModal .rectangle .rectangle-image{width:auto;height:40px}
+#loginOrCreateAccountModal .rectangle span,#secondDownloadCreateAccountModal .rectangle span{font-size:17px !important;width:auto;display:flex;align-items:center;margin-bottom:0;margin-left:17px}
+#loginOrCreateAccountModal .login-or-create-title-container,#secondDownloadCreateAccountModal .login-or-create-title-container{width:auto !important;height:auto !important}
+#loginOrCreateAccountModal .login-or-create-rectangle-container,#secondDownloadCreateAccountModal .login-or-create-rectangle-container{flex-direction:column;justify-content:center;align-items:center;gap:30px !important}
+#loginOrCreateAccountModal .rectangle,#secondDownloadCreateAccountModal .rectangle{padding:2em 2em 2em 4em !important;flex-direction:row !important;justify-content:flex-start !important;gap:0 !important}
+#loginOrCreateAccountModal .download-guest-container,#secondDownloadCreateAccountModal .download-guest-container{justify-content:start !important}
+.loginOrCreateAccountModal-contaier{display:flex;flex-direction:column;gap:50px}
+.login-or-create-rectangle-container a{margin:0}
+#secondDownloadCreateAccountModal .modal-content-container{background-color:#f7f8fa;display:flex;align-items:center}
+#secondDownloadCreateAccountModal .modal-content-container{padding:123px 22px 98px}
+#secondDownloadCreateAccountModal .container{gap:45px !important}
+}
+@media(min-width:641px){#loginOrCreateAccountModal .modal-content-container{width:853px;height:688px}
+#secondDownloadCreateAccountModal .modal-content-container{width:853px;display:flex;justify-content:center}
+#loginOrCreateAccountModal .modal-dialog,#secondDownloadCreateAccountModal .modal-dialog{display:flex;justify-content:center}
+.loginOrCreateAccountModal-contaier{display:flex;flex-direction:column;gap:30px}
+#loginOrCreateAccountModal .rectangle-image[alt="profile"]{width:65px;height:66px}
+}
+@media(max-width:1024px) and (min-width:641px){#loginOrCreateAccountModal .modal-dialog,#secondDownloadCreateAccountModal .modal-dialog{top:50%;left:50%;transform:translate(-50%,-50%) !important;margin:0}
+#loginOrCreateAccountModal .modal-content,#secondDownloadCreateAccountModal .modal-content{margin:2% 5%;overflow:hidden}
+}
+#secondDownloadCreateAccountModal .rectangle span{width:auto;display:flex;align-items:center;margin-bottom:0}
+#loginOrCreateAccountModal .modal-dialog .email-login,#secondDownloadCreateAccountModal .modal-dialog .email-login{background-color:unset;border-color:unset;margin-right:0}
+#loginOrCreateAccountModal .modal-content-container,#secondDownloadCreateAccountModal .modal-content-container{background-color:#f6f7f9;display:flex;justify-content:center}
+#loginOrCreateAccountModal .login-or-create-title-container{width:564px;height:120px;font-size:25px !important;text-align:left !important;color:#525a63 !important}
+#secondDownloadCreateAccountModal .login-or-create-title-container{width:498px;height:120px;font-size:25px !important;text-align:left !important;color:#525a63 !important}
+#loginOrCreateAccountModal .login-or-create-rectangle-container{display:flex;justify-content:space-between;gap:4em}
+#secondDownloadCreateAccountModal .login-or-create-rectangle-container{display:flex;justify-content:space-between;gap:50px}
+#loginOrCreateAccountModal .rectangle{width:280px;height:334px;padding:93px 60px 58px 62px;border-radius:3px;background-color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:4em;cursor:pointer}
+#secondDownloadCreateAccountModal .rectangle{width:450px;height:126px;padding:27px 51px 35px 55px;border-radius:3px;background-color:#fff;display:flex;flex-direction:row;align-items:center;justify-content:center;gap:2em;cursor:pointer}
+#loginOrCreateAccountModal .rectangle:hover,#secondDownloadCreateAccountModal .rectangle:hover{background-color:#fbd304}
+#loginOrCreateAccountModal .rectangle:hover .rectangle-image,#secondDownloadCreateAccountModal .rectangle:hover .rectangle-image{width:70px;height:70px;transition:width .3s ease-in-out,height .3s ease-in-out}
+#loginOrCreateAccountModal .rectangle-image,#secondDownloadCreateAccountModal .rectangle-image{width:54px;height:64px;object-fit:contain}
+#loginOrCreateAccountModal .rectangle-text,#secondDownloadCreateAccountModal .rectangle-text{width:158px;height:32px;font-size:21px !important;line-height:1.52 !important;margin-bottom:auto;display:block}
+#loginOrCreateAccountModal .download-guest-container{cursor:pointer;display:flex;justify-content:end}
+#secondDownloadCreateAccountModal .download-guest-container{cursor:pointer;display:flex;justify-content:flex-start}
+#loginOrCreateAccountModal .download-guest-text,#secondDownloadCreateAccountModal .second-download-guest-text{border-bottom:2px solid #03234b}
+#secondDownloadCreateAccountModal .container{display:flex;flex-direction:column;gap:30px}
+#loginOrCreateAccountModal .modal-dialog,#secondDownloadCreateAccountModal .modal-dialog{box-shadow:none !important}
+.popup-title,.getsw_modal_temp .popup-title,#emailSentModal .popup-title,#emailAlertModal .popup-title,#downloadFailModal .popup-title{font-family:LubalinGraphStd-Medium;font-size:24px;font-weight:500;font-stretch:normal;font-style:normal;line-height:1.65;letter-spacing:normal;text-align:left !important;color:#525a63;margin-bottom:11px}
+.getsw_modal_temp .getsw_modal_temp_text{padding:0}
+#emailSentModal button,#emailAlertModal button,.email-success button,.getsw_modal_temp button,.getsw_modal_temp_button_close,#downloadFailModal button{width:fit-content;height:48px;flex-grow:0;display:flex;flex-direction:row;justify-content:center;align-items:center;gap:8px;padding:12px 32px;background-color:#ffd200;float:none;border-color:#ffd200;border-radius:10px 0 10px 0;font-weight:bold;color:#03234b}
+#emailSentModal button:hover,#emailAlertModal button:hover,.email-success button:hover,.getsw_modal_temp button:hover,.getsw_modal_temp_button_close:hover,#downloadFailModal button:hover,#maliciousVPN button:hover{background-color:#ffdb33;border-color:#ffdb33;color:#03234b}
+#downloadFailModal .row{margin:0}
+#emailSentModal .large-offset-9,#emailAlertModal .large-offset-9,#downloadFailModal .large-offset-9{display:flex;margin:unset !important}
+#emailSentModal .modal-content,#emailAlertModal .modal-content,.getsw_modal_temp .modal,#downloadFailModal .modal-content{padding:45px 60px;width:794px;display:flex;flex-direction:column;justify-content:space-around}
+.getsw_modal_temp .modal:has(.getsw_modal_temp_close){padding:45px 60px;width:794px;display:flex;flex-direction:column;justify-content:space-around}
+.getsw_modal_temp .modal .getsw_modal_temp_text .popup-title{padding-bottom:20px}
+.getsw_modal_temp .modal:has(.getsw_modal_temp_close) button{margin-bottom:0}
+#emailSentModal .modal-dialog,#emailAlertModal .modal-dialog,#downloadFailModal .modal-dialog{display:flex;justify-content:center;align-items:center;box-shadow:none}
+#emailSentModal p,#emailAlertModal .page-header .row div,#downloadFailModal p{font-size:15px;font-family:Arial,Helvetica,sans-serif}
+#emailSentModal .modal-content,#emailAlertModal .modal-content,#downloadFailModal .modal-content,#licenseModal .modal-content,#loginOrCreateAccountModal .modal-content,#secondDownloadCreateAccountModal .modal-content{border-radius:3px}
+@media(max-width:640px){#emailSentModal .modal-content,#emailAlertModal .modal-content,#downloadFailModal .modal-content{justify-content:center;height:fit-content;padding:41px 26px;width:280px}
+.getsw_modal_temp .modal:has(.getsw_modal_temp_close){padding:41px 26px !important;width:280px}
+.getsw_modal_temp .modal .getsw_modal_temp_text .popup-title{padding-bottom:35px;font-size:20px}
+#emailSentModal button,#emailAlertModal button,#downloadFailModal button,.getsw_modal_temp .modal button{width:100% !important}
+}
